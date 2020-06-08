@@ -86,7 +86,6 @@ const styles = StyleSheet.create({
 
   main: {
     flex: 1,
-    justifyContent: 'center',
     alignItems: 'center',
   },
 
@@ -95,7 +94,7 @@ const styles = StyleSheet.create({
     fontSize: 32,
     fontFamily: 'Ubuntu_700Bold',
     maxWidth: 260,
-    marginTop: 64,
+    marginTop: 40,
   },
 
   footer: {},
@@ -107,7 +106,8 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     overflow: 'hidden',
     alignItems: 'center',
-    marginTop: 128,
+    marginBottom: 8,
+    marginTop: 50,
   },
 
   buttonIcon: {

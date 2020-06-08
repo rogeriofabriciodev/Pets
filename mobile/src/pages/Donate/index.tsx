@@ -12,37 +12,37 @@ const Donate: React.FC = () => {
   const placeholderSpecies = {
     label: 'Escolha a espécie...',
     value: null,
-    color: '#9EA0A4',
+    color: '#FF004E',
   };
 
   const placeholderBreed = {
     label: 'Escolha a raça...',
     value: null,
-    color: '#9EA0A4',
+    color: '#FF004E',
   };
 
   const placeholderGender = {
     label: 'Escolha o sexo...',
     value: null,
-    color: '#9EA0A4',
+    color: '#FF004E',
   };
 
   const placeholderAge = {
     label: 'Escolha a idade...',
     value: null,
-    color: '#9EA0A4',
+    color: '#FF004E',
   };
 
   const placeholderUf = {
     label: 'Escolha o estado...',
     value: null,
-    color: '#9EA0A4',
+    color: '#FF004E',
   };
 
   const placeholderCity = {
     label: 'Escolha a cidade...',
     value: null,
-    color: '#9EA0A4',
+    color: '#FF004E',
   };
 
   function handleSubmit() {
@@ -56,8 +56,7 @@ const Donate: React.FC = () => {
     >
       <View style={styles.container}>
         <View style={styles.main}>
-          <Image style={{width: 161, height: 155}} source={require('../../assets/logo.png')} />
-          <Text style={styles.title}>Doar</Text>
+          <Image style={{width: 151, height: 146}} source={require('../../assets/logo.png')} />
         </View>
         <View style={styles.footer}>
 
@@ -160,33 +159,16 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
 
-  title: {
-    color: '#322153',
-    fontSize: 32,
-    fontFamily: 'Ubuntu_700Bold',
-    maxWidth: 260,
-    marginTop: 18,
-  },
-
-  description: {
-    color: '#6C6C80',
-    fontSize: 16,
-    marginTop: 16,
-    fontFamily: 'Roboto_400Regular',
-    maxWidth: 260,
-    lineHeight: 24,
-  },
-
   footer: {},
 
   button: {
     backgroundColor: '#FF004E',
-    height: 60,
+    height: 55,
     flexDirection: 'row',
     borderRadius: 10,
     overflow: 'hidden',
     alignItems: 'center',
-    marginTop: 38,
+    marginTop: 18,
   },
 
   buttonIcon: {
@@ -211,16 +193,17 @@ const styles = StyleSheet.create({
   
 const pickerSelectStyles = StyleSheet.create({
   inputIOS: {
+    backgroundColor: '#FFF',
     fontSize: 16,
-    paddingVertical: 12,
+    paddingVertical: 1,
     paddingHorizontal: 18,
     borderWidth: 1,
     borderColor: 'red',
     borderRadius: 4,
     color: 'black',
     fontFamily: 'Roboto_500Medium',
-    marginBottom: 12,
-    height: 60,
+    marginBottom: 8,
+    height: 50,
     paddingRight: 30, // to ensure the text is never behind the icon
   },
   inputAndroid: {
@@ -233,7 +216,7 @@ const pickerSelectStyles = StyleSheet.create({
     color: 'black',
     fontFamily: 'Roboto_500Medium',
     marginBottom: 12,
-    height: 60,
+    height: 55,
     paddingRight: 30, // to ensure the text is never behind the icon
   },
 });
